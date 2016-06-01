@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!ELEMENT Conti	(Conto)*>
+	<!ELEMENT Conto	(CodiceConto, CodiceCliente, Saldo, Azione)>
+	<!ELEMENT CodiceConto	(#PCDATA) > 
+	<!ELEMENT CodiceCliente	(#PCDATA)>
+	<!ELEMENT Saldo	(#PCDATA)>
+	<!ELEMENT Azioni (Azione)*>
+	<!ELEMENT Azione	(CodiceAzione, Quantita)>
+	<!ELEMENT CodiceAzione	(#PCDATA)>
+	<!ELEMENT Quantita	(#PCDATA)>

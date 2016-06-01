@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Correntisti SYSTEM "correntisti.dtd">
+<Correntisti>
+    <Correntista>
+        <CodiceCliente>259dc371f703</CodiceCliente>
+        <Nome>Mario</Nome>
+        <Cognome>Rossi</Cognome>
+        <DataNascita>01/07/1070</DataNascita>
+        <Indirizzo>Via Papero</Indirizzo>
+        <Citta>Milano</Citta>
+        <CAP>20100</CAP>
+        <Stato>Italy</Stato>
+        <Telefono>349042399</Telefono>
+        <email>mario@rossi.it</email>
+    </Correntista>
+    <Correntista>
+        <CodiceCliente>10186cdb4a5f</CodiceCliente>
+        <Nome>Francesco</Nome>
+        <Cognome>Giordano</Cognome>
+        <DataNascita>04/04/1982</DataNascita>
+        <Indirizzo>Via Corsico</Indirizzo>
+        <Citta>Caleppio</Citta>
+        <Provincia>To</Provincia>
+        <CAP>10187</CAP>
+        <Stato>Italy</Stato>
+        <Telefono>338948248</Telefono>
+        <Email>francesco@tatoo.it</Email>
+    </Correntista>
+    <Correntista>
+        <CodiceCliente>de806411ffd9</CodiceCliente>
+        <Nome>sdfa</Nome>
+        <Cognome>pdf</Cognome>
+        <DataNascita>1/06/2016</DataNascita>
+        <Indirizzo>dfdas</Indirizzo>
+        <Citta>dfad</Citta>
+        <Provincia>dsfads</Provincia>
+        <CAP>fdsfas</CAP>
+        <Stato>Argentina</Stato>
+        <Telefono>3454352</Telefono>
+        <Email>dfdaf@dfa.it</Email>
+    </Correntista>
+</Correntisti>

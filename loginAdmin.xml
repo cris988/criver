@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TableLogin SYSTEM "loginAdmin.dtd">
+
+<TableLogin>
+	<User>
+		<Username>admin</Username>
+		<Password>admin</Password>
+	</User>
+</TableLogin>

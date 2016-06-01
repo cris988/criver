@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!ELEMENT Correntisti	(Correntista)>
+	<!ELEMENT Correntista	(CodiceCliente, Nome, Cognome, DataNascita, Indirizzo, Citta, Provincia, CAP, Stato, Telefono, email)*>
+	<!ELEMENT CodiceCliente	(#PCDATA) > 
+	<!ELEMENT Nome	(#PCDATA)>
+	<!ELEMENT Cognome	(#PCDATA)>
+	<!ELEMENT DataNascita	(#PCDATA)>
+	<!ELEMENT Indirizzo	(#PCDATA)>
+	<!ELEMENT Citta	(#PCDATA)>
+	<!ELEMENT Provincia	(#PCDATA)>
+	<!ELEMENT CAP	(#PCDATA)>
+	<!ELEMENT Stato	(#PCDATA)>
+	<!ELEMENT Telefono	(#PCDATA)>
+	<!ELEMENT Email	(#PCDATA)>

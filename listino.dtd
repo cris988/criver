@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!ELEMENT Listino	(Azione)+>
+	<!ELEMENT Azione	(CodiceAzione, Nome, Prezzo, Disponibilita, Categoria)>
+	<!ELEMENT CodiceAzione	(#PCDATA)> 
+	<!ELEMENT Nome		(#PCDATA)>
+	<!ELEMENT Prezzo	(#PCDATA)>
+	<!ELEMENT Disponibilita	(#PCDATA)>
+	<!ELEMENT Categoria	(#PCDATA)>

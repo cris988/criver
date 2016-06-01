@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!ELEMENT TableLogin	(User)+>
+	<!ELEMENT User	(Username, Password)>
+	<!ELEMENT Username	(#PCDATA) > 
+	<!ELEMENT Password	(#PCDATA)>

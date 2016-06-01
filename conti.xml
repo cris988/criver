@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Conti SYSTEM "conti.dtd">
+<Conti>
+    <Conto>
+        <CodiceConto>2f259dcabaf7</CodiceConto>
+        <CodiceCliente>259dc371f703</CodiceCliente>
+        <Azione>
+            <CodiceAzione>4bf1ddd05494</CodiceAzione>
+            <Quantita>207</Quantita>
+        </Azione>
+        <Azione>
+            <CodiceAzione>9f828271ae69</CodiceAzione>
+            <Quantita>1029</Quantita>
+        </Azione>
+        <Azione>
+            <CodiceAzione>20098d01d5c8</CodiceAzione>
+            <Quantita>54</Quantita>
+        </Azione>
+        <Saldo>14165.5</Saldo>
+        <Azione>
+            <CodiceAzione>8877d6c47dc4</CodiceAzione>
+            <Quantita>253</Quantita>
+        </Azione>
+    </Conto>
+    <Conto>
+        <CodiceConto>99660671a144</CodiceConto>
+        <CodiceCliente>10186cdb4a5f</CodiceCliente>
+        <Saldo>20072.0</Saldo>
+        <Azione>
+            <CodiceAzione>c1ad33f91755</CodiceAzione>
+            <Quantita>46</Quantita>
+        </Azione>
+        <Azione>
+            <CodiceAzione>cd4fea988b94</CodiceAzione>
+            <Quantita>38</Quantita>
+        </Azione>
+    </Conto>
+    <Conto>
+        <CodiceConto>e191ec21c022</CodiceConto>
+        <CodiceCliente>de806411ffd9</CodiceCliente>
+        <Saldo>9975.0</Saldo>
+        <Azione>
+            <CodiceAzione>9f828271ae69</CodiceAzione>
+            <Quantita>5</Quantita>
+        </Azione>
+    </Conto>
+</Conti>

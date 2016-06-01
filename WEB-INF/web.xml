@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:j2ee="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  version="2.4" 
+   xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee    http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+	
+    <servlet>
+        <servlet-name>Core</servlet-name>
+        <servlet-class>Core</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Core</servlet-name>
+        <url-pattern>/Core</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Checkout</servlet-name>
+        <servlet-class>Checkout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Checkout</servlet-name>
+        <url-pattern>/Checkout</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>EditCart</servlet-name>
+        <servlet-class>EditCart</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditCart</servlet-name>
+        <url-pattern>/EditCart</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>DelCart</servlet-name>
+        <servlet-class>DelCart</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DelCart</servlet-name>
+        <url-pattern>/DelCart</url-pattern>
+    </servlet-mapping>
+	
+		<servlet>
+        <servlet-name>Admin</servlet-name>
+        <servlet-class>Admin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/Admin</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LoginAdmin</servlet-name>
+        <servlet-class>LoginAdmin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginAdmin</servlet-name>
+        <url-pattern>/LoginAdmin</url-pattern>
+    </servlet-mapping>
+	
+		<servlet>
+        <servlet-name>EditList</servlet-name>
+        <servlet-class>EditList</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditList</servlet-name>
+        <url-pattern>/EditList</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>EditAnagrafica</servlet-name>
+        <servlet-class>EditAnagrafica</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditAnagrafica</servlet-name>
+        <url-pattern>/EditAnagrafica</url-pattern>
+    </servlet-mapping>
+	
+		<servlet>
+        <servlet-name>NuovoConto</servlet-name>
+        <servlet-class>NuovoConto</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NuovoConto</servlet-name>
+        <url-pattern>/NuovoConto</url-pattern>
+    </servlet-mapping>
+    
+	<servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>Search</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Search</url-pattern>
+    </servlet-mapping>    
+	
+	<servlet>
+        <servlet-name>AbilitaConto</servlet-name>
+        <servlet-class>AbilitaConto</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AbilitaConto</servlet-name>
+        <url-pattern>/AbilitaConto</url-pattern>
+    </servlet-mapping>
+</web-app>

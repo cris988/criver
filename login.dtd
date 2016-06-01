@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!ELEMENT TableLogin	(User)*>
+	<!ELEMENT User	(Username, Password, Codicecliente)>
+	<!ATTLIST User
+			enabled	(true | false)	"false"> 
+	<!ELEMENT Username	(#PCDATA) > 
+	<!ELEMENT Password	(#PCDATA)>
+	<!ELEMENT CodiceCliente	(#PCDATA)>

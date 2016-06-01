@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TableLogin SYSTEM "login.dtd">
+<TableLogin>
+    <User enabled="true">
+        <Username>prova</Username>
+        <Password>1234</Password>
+        <CodiceCliente>259dc371f703</CodiceCliente>
+    </User>
+    <User enabled="true">
+        <Username>francesco</Username>
+        <Password>1234</Password>
+        <CodiceCliente>10186cdb4a5f</CodiceCliente>
+    </User>
+    <User enabled="true">
+        <Username>test</Username>
+        <Password>test</Password>
+        <CodiceCliente>de806411ffd9</CodiceCliente>
+    </User>
+</TableLogin>
